@@ -71,7 +71,7 @@ public class CalculatorApplication {
                     wynik1 = Math.tan(Math.toRadians(kat));
                     break;
                 default:
-                    System.out.println("Podany zostal zly znak!");
+                    System.out.println("Nienznany Operator");
             }
                 System.out.println("Wynik: " + wynik1);
         }
